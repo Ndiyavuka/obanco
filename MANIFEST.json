@@ -20,25 +20,43 @@
     },
     {
       "path": "memory/qui-je-suis/profil-core.md",
-      "description": "Mitch's core profile — identity, work, living situation, personality, health",
+      "description": "Mitch's core profile — identity, citizenship, languages, work, Janelle, social network, values, race/ethnicity",
       "project": "MemoryVault",
       "last_modified": "2026-04-13T00:00:00Z"
     },
     {
       "path": "memory/qui-je-suis/preferences.md",
-      "description": "Mitch's preferences — sleep, exercise, cooking, caffeine, communication",
+      "description": "Mitch's preferences — sleep, exercise, cooking, caffeine, dislikes, love languages, thinking style, tech tools",
       "project": "MemoryVault",
       "last_modified": "2026-04-13T00:00:00Z"
     },
     {
       "path": "memory/qui-je-suis/historique-decisions.md",
-      "description": "Mitch's decision history — key choices and rationale",
+      "description": "Mitch's decision history and active projects",
       "project": "MemoryVault",
       "last_modified": "2026-04-13T00:00:00Z"
     },
     {
       "path": "memory/sessions/2026-04-13-knowledge-file.md",
       "description": "Raw infodump — Mitch's full knowledge file as of April 13, 2026",
+      "project": "MemoryVault",
+      "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/sessions/2026-04-13-identity-infodump.md",
+      "description": "Raw infodump — full identity file including languages, work philosophy, social network, values, media",
+      "project": "MemoryVault",
+      "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/medias/lus/books.md",
+      "description": "Books Mitch has read and key intellectual figures",
+      "project": "MemoryVault",
+      "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/medias/vus/films-et-video.md",
+      "description": "Films, YouTube channels, and TED talks",
       "project": "MemoryVault",
       "last_modified": "2026-04-13T00:00:00Z"
     }

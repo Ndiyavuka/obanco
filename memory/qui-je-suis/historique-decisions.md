@@ -19,3 +19,12 @@
 **Current priority shift**
 - Rebuilding exercise volume (gym/swimming) to compensate for lost daily biking
 - Protecting wrist via strength training rather than just brace management
+
+**Active projects (as of April 2026)**
+- Volo Sports pickleball availability notifier (Python/Playwright)
+- Personal AI/LLM tutor system prompt
+- RAG artifact in French
+- Shared expense tracker with Janelle
+- Médiathèque spreadsheet
+- Portuguese resource for Linda (heritage Spanish speaker learning Brazilian Portuguese)
+- Professional interpreter portfolio drawing on 16 years of CARES notes
