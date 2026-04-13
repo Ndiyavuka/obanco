@@ -59,6 +59,24 @@
       "description": "Films, YouTube channels, and TED talks",
       "project": "MemoryVault",
       "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/taste/entries.md",
+      "description": "Taste Vault — one entry per title consumed",
+      "project": "TasteVault",
+      "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/taste/manifest.yaml",
+      "description": "Taste Vault — relational graph of nodes and edges",
+      "project": "TasteVault",
+      "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/taste/session_log.md",
+      "description": "Taste Vault — running log of all processing sessions",
+      "project": "TasteVault",
+      "last_modified": "2026-04-13T00:00:00Z"
     }
   ]
 }
