@@ -5,6 +5,36 @@
       "description": "Test file",
       "project": "test",
       "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/CLAUDE.md",
+      "description": "MemoryVault Claude Code instructions — identity, infodump workflow, file rules",
+      "project": "MemoryVault",
+      "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/INDEX.md",
+      "description": "MemoryVault index of all sessions and key topics",
+      "project": "MemoryVault",
+      "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/qui-je-suis/profil-core.md",
+      "description": "Mitch's core profile — identity, background, key traits",
+      "project": "MemoryVault",
+      "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/qui-je-suis/preferences.md",
+      "description": "Mitch's preferences — tools, formats, working style",
+      "project": "MemoryVault",
+      "last_modified": "2026-04-13T00:00:00Z"
+    },
+    {
+      "path": "memory/qui-je-suis/historique-decisions.md",
+      "description": "Mitch's decision history — key choices and rationale",
+      "project": "MemoryVault",
+      "last_modified": "2026-04-13T00:00:00Z"
     }
   ]
 }
