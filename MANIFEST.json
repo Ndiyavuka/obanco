@@ -1,1 +1,10 @@
-{"files":[]}
+{
+  "files": [
+    {
+      "path": "memory/projects/test.md",
+      "description": "Test file",
+      "project": "test",
+      "last_modified": "2026-04-13T00:00:00Z"
+    }
+  ]
+}
