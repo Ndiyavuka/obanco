@@ -1,7 +1,159 @@
 nodes:
-  themes: []
-  affects: []
-  personal: []
-  creators: []
+  themes:
+    - id: "self-narrative-vs-internal-truth"
+      titles: ["open-andre-agassi-2009"]
+    - id: "complexity-without-alienation"
+      titles: ["stevie-wonder-1972", "the-ezra-klein-show"]
+    - id: "strategic-layer-in-competitive-performance"
+      titles: ["the-inner-game-of-tennis-w-timothy-gallwey", "winning-ugly-brad-gilbert"]
+    - id: "dialogue-and-thought-through-disagreement"
+      titles: ["the-ezra-klein-show"]
+    - id: "traceable-evolution"
+      titles: ["stevie-wonder-1972"]
+    - id: "deconstruction-of-received-wisdom"
+      titles: ["heather-cox-richardson-youtube", "adam-conover-youtube"]
 
-edges: []
+  affects:
+    - id: "compassion-for-internal-fracture"
+      titles: ["open-andre-agassi-2009"]
+    - id: "intellectual-satisfaction-in-structure"
+      titles: ["stevie-wonder-1972", "the-inner-game-of-tennis-w-timothy-gallwey", "winning-ugly-brad-gilbert"]
+    - id: "clarity-within-complexity"
+      titles: ["stevie-wonder-1972", "the-ezra-klein-show", "heather-cox-richardson-youtube", "adam-conover-youtube"]
+    - id: "accessible-without-condescension"
+      titles: ["stevie-wonder-1972", "the-ezra-klein-show", "adam-conover-youtube"]
+    - id: "appreciation-for-non-alienating-models"
+      titles: ["stevie-wonder-1972", "the-ezra-klein-show", "adam-conover-youtube"]
+
+  personal:
+    - id: "difficulty-with-self-knowledge"
+      titles: ["open-andre-agassi-2009"]
+    - id: "absolute-pitch-as-structural-perception"
+      titles: ["stevie-wonder-1972"]
+    - id: "preference-for-lossless-compression"
+      titles: ["stevie-wonder-1972"]
+    - id: "pickleball-as-competitive-psychology-lab"
+      titles: ["the-inner-game-of-tennis-w-timothy-gallwey", "winning-ugly-brad-gilbert"]
+    - id: "interest-in-thinking-toward-excellence"
+      titles: ["the-inner-game-of-tennis-w-timothy-gallwey", "winning-ugly-brad-gilbert"]
+    - id: "attraction-to-dialogic-thinking"
+      titles: ["the-ezra-klein-show"]
+    - id: "analytical-audio-as-primary-information-diet"
+      titles: ["the-ezra-klein-show", "heather-cox-richardson-youtube", "adam-conover-youtube"]
+
+  creators:
+    - id: "andre-agassi"
+      titles: ["open-andre-agassi-2009"]
+    - id: "stevie-wonder"
+      titles: ["stevie-wonder-1972"]
+    - id: "w-timothy-gallwey"
+      titles: ["the-inner-game-of-tennis-w-timothy-gallwey"]
+    - id: "brad-gilbert"
+      titles: ["winning-ugly-brad-gilbert"]
+    - id: "ezra-klein"
+      titles: ["the-ezra-klein-show"]
+    - id: "heather-cox-richardson"
+      titles: ["heather-cox-richardson-youtube"]
+    - id: "adam-conover"
+      titles: ["adam-conover-youtube"]
+
+edges:
+  # Agassi cluster
+  - {from: "self-narrative-vs-internal-truth", to: "compassion-for-internal-fracture", weight: 1}
+  - {from: "self-narrative-vs-internal-truth", to: "difficulty-with-self-knowledge", weight: 1}
+  - {from: "self-narrative-vs-internal-truth", to: "andre-agassi", weight: 1}
+  - {from: "compassion-for-internal-fracture", to: "difficulty-with-self-knowledge", weight: 1}
+  - {from: "compassion-for-internal-fracture", to: "andre-agassi", weight: 1}
+  - {from: "difficulty-with-self-knowledge", to: "andre-agassi", weight: 1}
+
+  # Stevie Wonder cluster (all co-occur in one title; weight 1 each unless reinforced below)
+  - {from: "complexity-without-alienation", to: "traceable-evolution", weight: 1}
+  - {from: "complexity-without-alienation", to: "intellectual-satisfaction-in-structure", weight: 1}
+  - {from: "complexity-without-alienation", to: "absolute-pitch-as-structural-perception", weight: 1}
+  - {from: "complexity-without-alienation", to: "preference-for-lossless-compression", weight: 1}
+  - {from: "complexity-without-alienation", to: "stevie-wonder", weight: 1}
+  - {from: "traceable-evolution", to: "intellectual-satisfaction-in-structure", weight: 1}
+  - {from: "traceable-evolution", to: "clarity-within-complexity", weight: 1}
+  - {from: "traceable-evolution", to: "accessible-without-condescension", weight: 1}
+  - {from: "traceable-evolution", to: "appreciation-for-non-alienating-models", weight: 1}
+  - {from: "traceable-evolution", to: "absolute-pitch-as-structural-perception", weight: 1}
+  - {from: "traceable-evolution", to: "preference-for-lossless-compression", weight: 1}
+  - {from: "traceable-evolution", to: "stevie-wonder", weight: 1}
+  - {from: "intellectual-satisfaction-in-structure", to: "clarity-within-complexity", weight: 1}
+  - {from: "intellectual-satisfaction-in-structure", to: "accessible-without-condescension", weight: 1}
+  - {from: "intellectual-satisfaction-in-structure", to: "appreciation-for-non-alienating-models", weight: 1}
+  - {from: "intellectual-satisfaction-in-structure", to: "absolute-pitch-as-structural-perception", weight: 1}
+  - {from: "intellectual-satisfaction-in-structure", to: "preference-for-lossless-compression", weight: 1}
+  - {from: "intellectual-satisfaction-in-structure", to: "stevie-wonder", weight: 1}
+  - {from: "absolute-pitch-as-structural-perception", to: "clarity-within-complexity", weight: 1}
+  - {from: "absolute-pitch-as-structural-perception", to: "accessible-without-condescension", weight: 1}
+  - {from: "absolute-pitch-as-structural-perception", to: "appreciation-for-non-alienating-models", weight: 1}
+  - {from: "absolute-pitch-as-structural-perception", to: "preference-for-lossless-compression", weight: 1}
+  - {from: "absolute-pitch-as-structural-perception", to: "stevie-wonder", weight: 1}
+  - {from: "preference-for-lossless-compression", to: "clarity-within-complexity", weight: 1}
+  - {from: "preference-for-lossless-compression", to: "accessible-without-condescension", weight: 1}
+  - {from: "preference-for-lossless-compression", to: "appreciation-for-non-alienating-models", weight: 1}
+  - {from: "preference-for-lossless-compression", to: "stevie-wonder", weight: 1}
+  - {from: "preference-for-lossless-compression", to: "traceable-evolution", weight: 1}
+
+  # Sports psychology cluster (weight 2: both Inner Game + Winning Ugly)
+  - {from: "strategic-layer-in-competitive-performance", to: "intellectual-satisfaction-in-structure", weight: 2}
+  - {from: "strategic-layer-in-competitive-performance", to: "pickleball-as-competitive-psychology-lab", weight: 2}
+  - {from: "strategic-layer-in-competitive-performance", to: "interest-in-thinking-toward-excellence", weight: 2}
+  - {from: "strategic-layer-in-competitive-performance", to: "w-timothy-gallwey", weight: 1}
+  - {from: "strategic-layer-in-competitive-performance", to: "brad-gilbert", weight: 1}
+  - {from: "intellectual-satisfaction-in-structure", to: "pickleball-as-competitive-psychology-lab", weight: 2}
+  - {from: "intellectual-satisfaction-in-structure", to: "interest-in-thinking-toward-excellence", weight: 2}
+  - {from: "intellectual-satisfaction-in-structure", to: "w-timothy-gallwey", weight: 1}
+  - {from: "intellectual-satisfaction-in-structure", to: "brad-gilbert", weight: 1}
+  - {from: "pickleball-as-competitive-psychology-lab", to: "interest-in-thinking-toward-excellence", weight: 2}
+  - {from: "pickleball-as-competitive-psychology-lab", to: "w-timothy-gallwey", weight: 1}
+  - {from: "pickleball-as-competitive-psychology-lab", to: "brad-gilbert", weight: 1}
+  - {from: "interest-in-thinking-toward-excellence", to: "w-timothy-gallwey", weight: 1}
+  - {from: "interest-in-thinking-toward-excellence", to: "brad-gilbert", weight: 1}
+
+  # Ezra Klein — new edges; shared nodes with Stevie get weight 2 below
+  - {from: "dialogue-and-thought-through-disagreement", to: "attraction-to-dialogic-thinking", weight: 1}
+  - {from: "dialogue-and-thought-through-disagreement", to: "analytical-audio-as-primary-information-diet", weight: 1}
+  - {from: "dialogue-and-thought-through-disagreement", to: "ezra-klein", weight: 1}
+  - {from: "attraction-to-dialogic-thinking", to: "analytical-audio-as-primary-information-diet", weight: 1}
+  - {from: "attraction-to-dialogic-thinking", to: "ezra-klein", weight: 1}
+  - {from: "analytical-audio-as-primary-information-diet", to: "ezra-klein", weight: 1}
+
+  # Cross-cluster edges with weight > 1 (reinforced by multiple titles)
+  - {from: "complexity-without-alienation", to: "clarity-within-complexity", weight: 2}
+  - {from: "complexity-without-alienation", to: "accessible-without-condescension", weight: 2}
+  - {from: "complexity-without-alienation", to: "appreciation-for-non-alienating-models", weight: 2}
+  - {from: "complexity-without-alienation", to: "dialogue-and-thought-through-disagreement", weight: 1}
+  - {from: "complexity-without-alienation", to: "attraction-to-dialogic-thinking", weight: 1}
+  - {from: "complexity-without-alienation", to: "analytical-audio-as-primary-information-diet", weight: 1}
+  - {from: "complexity-without-alienation", to: "ezra-klein", weight: 1}
+  - {from: "clarity-within-complexity", to: "accessible-without-condescension", weight: 3}
+  - {from: "clarity-within-complexity", to: "appreciation-for-non-alienating-models", weight: 3}
+  - {from: "clarity-within-complexity", to: "analytical-audio-as-primary-information-diet", weight: 3}
+  - {from: "clarity-within-complexity", to: "dialogue-and-thought-through-disagreement", weight: 1}
+  - {from: "clarity-within-complexity", to: "attraction-to-dialogic-thinking", weight: 1}
+  - {from: "clarity-within-complexity", to: "ezra-klein", weight: 1}
+  - {from: "clarity-within-complexity", to: "deconstruction-of-received-wisdom", weight: 2}
+  - {from: "clarity-within-complexity", to: "heather-cox-richardson", weight: 1}
+  - {from: "clarity-within-complexity", to: "adam-conover", weight: 1}
+  - {from: "accessible-without-condescension", to: "appreciation-for-non-alienating-models", weight: 3}
+  - {from: "accessible-without-condescension", to: "analytical-audio-as-primary-information-diet", weight: 2}
+  - {from: "accessible-without-condescension", to: "dialogue-and-thought-through-disagreement", weight: 1}
+  - {from: "accessible-without-condescension", to: "attraction-to-dialogic-thinking", weight: 1}
+  - {from: "accessible-without-condescension", to: "ezra-klein", weight: 1}
+  - {from: "accessible-without-condescension", to: "deconstruction-of-received-wisdom", weight: 1}
+  - {from: "accessible-without-condescension", to: "adam-conover", weight: 1}
+  - {from: "appreciation-for-non-alienating-models", to: "analytical-audio-as-primary-information-diet", weight: 2}
+  - {from: "appreciation-for-non-alienating-models", to: "dialogue-and-thought-through-disagreement", weight: 1}
+  - {from: "appreciation-for-non-alienating-models", to: "attraction-to-dialogic-thinking", weight: 1}
+  - {from: "appreciation-for-non-alienating-models", to: "ezra-klein", weight: 1}
+  - {from: "appreciation-for-non-alienating-models", to: "deconstruction-of-received-wisdom", weight: 1}
+  - {from: "appreciation-for-non-alienating-models", to: "adam-conover", weight: 1}
+
+  # Deconstruction cluster (Heather + Adam)
+  - {from: "deconstruction-of-received-wisdom", to: "analytical-audio-as-primary-information-diet", weight: 2}
+  - {from: "deconstruction-of-received-wisdom", to: "heather-cox-richardson", weight: 1}
+  - {from: "deconstruction-of-received-wisdom", to: "adam-conover", weight: 1}
+  - {from: "analytical-audio-as-primary-information-diet", to: "heather-cox-richardson", weight: 1}
+  - {from: "analytical-audio-as-primary-information-diet", to: "adam-conover", weight: 1}
