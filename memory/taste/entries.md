@@ -180,3 +180,202 @@ period_of_release: 1930s–1940s
 period_consumed: unspecified
 ---
 Named alongside Brubeck, Coltrane, and Simone as jazz that sticks. Old-time, but memorable — coherent enough to want to return to. Part of a broader jazz appreciation that prizes clarity and retrievability alongside harmonic richness.
+
+---
+---
+id: stratego
+title: Stratego
+format: game
+creator: Jumbo (original Dutch publisher)
+period_of_release: 1947
+period_consumed: ongoing
+---
+A turn-based strategy game with hidden information. Mitch values the asymmetry of incomplete knowledge — you never fully see your opponent's pieces — and describes the uncertainty itself as core to the appeal, not a constraint to work around. He returns to it as one of a cluster of games that satisfy a desire to have his brain engaged with problems he can't fully solve.
+
+---
+id: chess
+title: Chess
+format: game
+creator: traditional
+period_of_release: medieval
+period_consumed: ongoing
+---
+A classic turn-based strategy game Mitch plays alongside Stratego. Mentioned in the context of games he gravitates toward — turn-based, requiring strategic thinking, rewarding depth and practice over time.
+
+---
+id: go
+title: Go
+format: game
+creator: traditional (Chinese origin)
+period_of_release: ancient
+period_consumed: not yet / aspirational
+---
+Mitch hasn't played much Go but finds it appealing. He sees it as belonging to the same family as Chess and Stratego — hidden depths, strategic layering, mastery that takes time to unlock. More of an aspiration than an active practice.
+
+---
+id: blood-on-the-clocktower-2022
+title: Blood on the Clocktower
+format: game
+creator: Steven Medway / The Pandemonium Institute
+period_of_release: 2022
+period_consumed: recent
+---
+A social deduction game introduced to Mitch by a friend. He's drawn to its people-reading layer — the need to track patterns, detect lies, assess trustworthiness across a group. He wishes it were easier to play more regularly and explicitly wants to get better at it, framing it as a skill he wants to develop. The game operates on incomplete information, which connects it to the same appeal as Chess and Stratego, but adds a live human psychology dimension that the others lack.
+
+---
+id: mafia
+title: Mafia
+format: game
+creator: Dimitry Davidoff (original design)
+period_of_release: 1986
+period_consumed: past
+---
+Mitch has played Mafia — the original social deduction party game — which he mentions as part of his history with the genre. Not deeply excavated; noted as a predecessor to Blood on the Clocktower.
+
+---
+id: the-resistance-avalon
+title: The Resistance: Avalon
+format: game
+creator: Don Eskridge / Indie Boards & Cards
+period_of_release: 2012
+period_consumed: past
+---
+Mitch played "Merlin" — identified as The Resistance: Avalon, a social deduction game in an Arthurian setting. Mentioned alongside Mafia and Blood on the Clocktower as part of his social deduction game history. Not deeply excavated.
+
+---
+id: wingspan-2019
+title: Wingspan
+format: game
+creator: Elizabeth Hargrave / Stonemaier Games
+period_of_release: 2019
+period_consumed: recent
+---
+A competitive engine-building board game about attracting birds to wildlife preserves — feeding them, laying eggs, building habitat chains that generate actions. Mitch likes the feeling of engineering an ecosystem, where everything feeds into everything else. He's aware he hasn't fully unlocked its depth and wants to play more. The appeal sits at the intersection of strategic layering and systemic thinking — "you're engineering the whole ecosystem."
+
+---
+id: parable-of-the-sower-1993
+title: Parable of the Sower
+format: book
+creator: Octavia E. Butler
+period_of_release: 1993
+period_consumed: first term of Trump presidency (2017–2020)
+---
+A life-changing book for Mitch, read during a period of political fear and uncertainty. The novel — set in a near-future California societal collapse — gave him a framework for thinking through what to do when community dissolves and political conditions turn hostile. He describes it as a realistic dramatization of how to maintain humanity and rebuild community from the ground up, under conditions of failed governance and warlordism. The book settled into a mindset rather than a set of details: the need for discernment about who can contribute to a healing community, and the recognition that some people — even without malice, even family — can break rather than nourish. He values it for its rigor and restraint: Butler doesn't manufacture hope or dress the fiction in unnecessary flourish. It reads like a map of possible futures, not a resolution.
+
+---
+id: parable-of-the-talents-1998
+title: Parable of the Talents
+format: book
+creator: Octavia E. Butler
+period_of_release: 1998
+period_consumed: first term of Trump presidency (2017–2020)
+---
+Read as a companion to Parable of the Sower. Mitch notes the ongoing complexity of Lauren Olamina's brother as a character — someone she loves, who wants no harm to come to her, but whose associations with a Christian fundamentalist political movement make proximity dangerous. This ambiguity — harm without malice, incompatibility without evil — is part of what resonates. The Parable duology as a whole functions for Mitch as both emotional experience and practical philosophy.
+
+---
+id: kindred-1979
+title: Kindred
+format: book
+creator: Octavia E. Butler
+period_of_release: 1979
+period_consumed: around the same period or adjacent
+---
+A time-travel novel moving between 1976 and antebellum Maryland. Mitch values it for giving the reader a grounded, day-to-day sense of what slavery and interracial life actually felt like in that era — not as abstraction or spectacle, but as lived texture. The modern protagonist's perspective serves as a lens that makes the historical condition immediate and legible.
+
+---
+id: the-dispossessed-1974
+title: The Dispossessed
+format: book
+creator: Ursula K. Le Guin
+period_of_release: 1974
+period_consumed: past (recommended by a well-read friend)
+---
+A science fiction thought experiment about two planets organized along radically different economic and social lines — one capitalist, one anarchist. Mitch was drawn to it through a friend's recommendation and found the premise credible rather than utopian, grounded in what he knows from anthropology: that under certain material conditions (scarcity, nomadic life), inequality simply can't exist. The book didn't resolve anything for him — he describes it as leaving an "ellipsis" — but gave him a rich space to think through the tension between what people want (abundance) and what a system can sustain. He's drawn to the irreconcilable nature of that boundary.
+
+---
+id: sphere-1987
+title: Sphere
+format: book
+creator: Michael Crichton
+period_of_release: 1987
+period_consumed: childhood / youth
+---
+Read when Mitch was young. A techno-thriller about scientists discovering a mysterious alien orb on the ocean floor — the sphere grants the power to manifest subconscious thought into reality. He describes it fondly as a gripping read from his youth, though it's less deeply excavated than his later fiction. Its appeal likely maps to the same grounded-science thriller mode he responds to in other Crichton — a real-world premise (underwater exploration, Navy involvement) pushed into the speculative through a single extraordinary element.
+
+---
+id: roald-dahl-collected
+title: Roald Dahl (works, general)
+format: book
+creator: Roald Dahl
+period_of_release: 1940s–1990s
+period_consumed: childhood
+---
+Mitch read Dahl extensively as a child and remembers liking his work because, despite the absurdity and imagination, the scenarios weren't too complex and followed their own internal logic. He reaches for a French word — something like "situation comique" or "quiproquo" — to describe the setup quality he valued: a funny, absurd scenario that nevertheless doesn't break its own rules. Even as a child, he was drawn to internal consistency; fiction that violated its own logic lost him.
+
+---
+id: i-am-legend-film-2007
+title: I Am Legend
+format: film
+creator: Francis Lawrence (dir.)
+period_of_release: 2007
+period_consumed: past
+---
+A film Mitch cites as a clear example of fiction that lost him. The breaking point: in the opening scene, Will Smith drives a gleaming Ford Mustang through a deserted New York City — three years into a post-apocalypse — and all other visible vehicles are also Ford products. Mitch immediately identified it as covert advertising, and recognized that the premise (three years of infrastructure collapse) was incompatible with a showroom-condition car running on perfectly inflated tires. Once the internal logic broke, he stopped trusting anything else the film showed him. It's a precise encapsulation of his aesthetic principle: fiction must be rigorous about the world it has constructed. The moment you catch the seam, the whole thing collapses.
+
+---
+
+NODE CANDIDATES
+
+themes:
+- hidden information / incomplete knowledge
+- strategy under uncertainty
+- people-reading / social deduction
+- engine-building / systems thinking
+- ecosystem construction
+- community formation under collapse
+- societal failure / failed governance
+- resilience and survival
+- discernment (who belongs in a healing community)
+- complicity without malice
+- anarchism / alternative social organization
+- inequality and material conditions
+- experiential knowledge vs. abstract knowledge
+- grounded speculation / near-future realism
+- internal logical consistency
+- covert commercialism / manipulation in media
+- the tension between abundance and sustainability
+
+affects:
+- intellectual engagement / brain activation
+- desire for mastery / depth not yet unlocked
+- political fear channeled into practical thinking
+- life-changing clarity / floor under the feet
+- open-ended wonder / productive irresolution
+- immediate ejection when internal logic breaks
+- warmth toward absurdist-but-consistent childhood fiction
+- trust calibrated to rigor of the work
+
+personal:
+- read Parable of the Sower during first Trump term as a political survival framework
+- strong student of history; connects fiction and documentary to real-world events
+- political orientation toward inclusion, community-building, opposition to marginalization
+- active imagination — doesn't need elaborate worldbuilding scaffolding
+- values experiential knowledge as the gold standard
+- drawn to games as spaces for skill development and human pattern-reading
+- aspirational relationship to certain games (Go, Blood on the Clocktower) — wants to get better
+
+creators:
+- Octavia E. Butler
+- Ursula K. Le Guin
+- Michael Crichton
+- Roald Dahl
+- Elizabeth Hargrave
+- Steven Medway
+- Francis Lawrence (negative)
+
+flags:
+- "grounded speculation" and "near-future realism" may collapse into one node — flag for deduplication
+- "experiential knowledge" (personal node) and "documentary as grounded truth" (theme node from prior session) likely overlap — flag for merge
+- "internal logical consistency" as theme may partially overlap with "rigor / restraint" from Butler discussion — review for consolidation
+- Roald Dahl entry is a general / collected works entry rather than a specific title — may need to be split into title-level entries if specific books are named in future sessions
+- I Am Legend listed as film but functions primarily as an anti-preference / negative data point — consider flagging entries of this type distinctly in the schema
