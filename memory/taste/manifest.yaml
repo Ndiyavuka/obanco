@@ -12,6 +12,40 @@ nodes:
       titles: ["stevie-wonder-1972"]
     - id: "deconstruction-of-received-wisdom"
       titles: ["heather-cox-richardson-youtube", "adam-conover-youtube"]
+    - id: "hidden-information-incomplete-knowledge"
+      titles: ["stratego", "blood-on-the-clocktower-2022"]
+    - id: "strategy-under-uncertainty"
+      titles: ["stratego", "chess", "go", "blood-on-the-clocktower-2022"]
+    - id: "people-reading-social-deduction"
+      titles: ["blood-on-the-clocktower-2022", "mafia", "the-resistance-avalon"]
+    - id: "engine-building-systems-thinking"
+      titles: ["wingspan-2019"]
+    - id: "ecosystem-construction"
+      titles: ["wingspan-2019"]
+    - id: "community-formation-under-collapse"
+      titles: ["parable-of-the-sower-1993", "parable-of-the-talents-1998"]
+    - id: "societal-failure-failed-governance"
+      titles: ["parable-of-the-sower-1993", "parable-of-the-talents-1998"]
+    - id: "resilience-and-survival"
+      titles: ["parable-of-the-sower-1993"]
+    - id: "discernment-who-belongs-in-healing-community"
+      titles: ["parable-of-the-sower-1993", "parable-of-the-talents-1998"]
+    - id: "complicity-without-malice"
+      titles: ["parable-of-the-talents-1998"]
+    - id: "anarchism-alternative-social-organization"
+      titles: ["the-dispossessed-1974"]
+    - id: "inequality-and-material-conditions"
+      titles: ["the-dispossessed-1974"]
+    - id: "experiential-knowledge-vs-abstract-knowledge"  # FLAG: likely overlaps with "documentary as grounded truth" from prior session — flag for merge
+      titles: ["kindred-1979"]
+    - id: "grounded-speculation-near-future-realism"  # FLAG: "grounded speculation" and "near-future realism" may collapse into one node — flag for deduplication
+      titles: ["parable-of-the-sower-1993", "kindred-1979", "the-dispossessed-1974", "sphere-1987"]
+    - id: "internal-logical-consistency"  # FLAG: may partially overlap with "rigor / restraint" from Butler discussion — review for consolidation
+      titles: ["roald-dahl-collected", "i-am-legend-film-2007"]
+    - id: "covert-commercialism-manipulation-in-media"
+      titles: ["i-am-legend-film-2007"]
+    - id: "tension-between-abundance-and-sustainability"
+      titles: ["the-dispossessed-1974"]
 
   affects:
     - id: "compassion-for-internal-fracture"
@@ -24,6 +58,22 @@ nodes:
       titles: ["stevie-wonder-1972", "the-ezra-klein-show", "adam-conover-youtube"]
     - id: "appreciation-for-non-alienating-models"
       titles: ["stevie-wonder-1972", "the-ezra-klein-show", "adam-conover-youtube"]
+    - id: "intellectual-engagement-brain-activation"
+      titles: ["stratego", "chess"]
+    - id: "desire-for-mastery-depth-not-yet-unlocked"
+      titles: ["go", "blood-on-the-clocktower-2022", "wingspan-2019"]
+    - id: "political-fear-channeled-into-practical-thinking"
+      titles: ["parable-of-the-sower-1993"]
+    - id: "life-changing-clarity-floor-under-the-feet"
+      titles: ["parable-of-the-sower-1993"]
+    - id: "open-ended-wonder-productive-irresolution"
+      titles: ["the-dispossessed-1974"]
+    - id: "immediate-ejection-when-internal-logic-breaks"
+      titles: ["i-am-legend-film-2007"]
+    - id: "warmth-toward-absurdist-but-consistent-childhood-fiction"
+      titles: ["roald-dahl-collected"]
+    - id: "trust-calibrated-to-rigor-of-work"
+      titles: ["i-am-legend-film-2007"]
 
   personal:
     - id: "difficulty-with-self-knowledge"
@@ -40,6 +90,20 @@ nodes:
       titles: ["the-ezra-klein-show"]
     - id: "analytical-audio-as-primary-information-diet"
       titles: ["the-ezra-klein-show", "heather-cox-richardson-youtube", "adam-conover-youtube"]
+    - id: "political-survival-reading-first-trump-term"
+      titles: ["parable-of-the-sower-1993"]
+    - id: "strong-student-of-history"
+      titles: ["parable-of-the-sower-1993", "kindred-1979"]
+    - id: "political-orientation-inclusion-community-building"
+      titles: ["parable-of-the-sower-1993", "parable-of-the-talents-1998"]
+    - id: "active-imagination-doesnt-need-elaborate-worldbuilding"
+      titles: ["roald-dahl-collected"]
+    - id: "values-experiential-knowledge-as-gold-standard"  # FLAG: likely overlaps with experiential-knowledge-vs-abstract-knowledge theme and "documentary as grounded truth" from prior session — flag for merge
+      titles: ["kindred-1979"]
+    - id: "drawn-to-games-for-skill-development-and-human-pattern-reading"
+      titles: ["stratego", "chess", "go", "blood-on-the-clocktower-2022", "mafia", "the-resistance-avalon"]
+    - id: "aspirational-relationship-to-certain-games"
+      titles: ["go", "blood-on-the-clocktower-2022"]
 
   creators:
     - id: "andre-agassi"
@@ -56,6 +120,21 @@ nodes:
       titles: ["heather-cox-richardson-youtube"]
     - id: "adam-conover"
       titles: ["adam-conover-youtube"]
+    - id: "octavia-e-butler"
+      titles: ["parable-of-the-sower-1993", "parable-of-the-talents-1998", "kindred-1979"]
+    - id: "ursula-k-le-guin"
+      titles: ["the-dispossessed-1974"]
+    - id: "michael-crichton"
+      titles: ["sphere-1987"]
+    - id: "roald-dahl"  # FLAG: entry is general/collected works — may need splitting if specific titles named in future sessions
+      titles: ["roald-dahl-collected"]
+    - id: "elizabeth-hargrave"
+      titles: ["wingspan-2019"]
+    - id: "steven-medway"
+      titles: ["blood-on-the-clocktower-2022"]
+    - id: "francis-lawrence"  # FLAG: I Am Legend functions primarily as anti-preference / negative data point — consider flagging entries of this type distinctly in schema
+      negative: true
+      titles: ["i-am-legend-film-2007"]
 
 edges:
   # Agassi cluster
@@ -66,7 +145,7 @@ edges:
   - {from: "compassion-for-internal-fracture", to: "andre-agassi", weight: 1}
   - {from: "difficulty-with-self-knowledge", to: "andre-agassi", weight: 1}
 
-  # Stevie Wonder cluster (all co-occur in one title; weight 1 each unless reinforced below)
+  # Stevie Wonder cluster
   - {from: "complexity-without-alienation", to: "traceable-evolution", weight: 1}
   - {from: "complexity-without-alienation", to: "intellectual-satisfaction-in-structure", weight: 1}
   - {from: "complexity-without-alienation", to: "absolute-pitch-as-structural-perception", weight: 1}
@@ -96,7 +175,7 @@ edges:
   - {from: "preference-for-lossless-compression", to: "stevie-wonder", weight: 1}
   - {from: "preference-for-lossless-compression", to: "traceable-evolution", weight: 1}
 
-  # Sports psychology cluster (weight 2: both Inner Game + Winning Ugly)
+  # Sports psychology cluster
   - {from: "strategic-layer-in-competitive-performance", to: "intellectual-satisfaction-in-structure", weight: 2}
   - {from: "strategic-layer-in-competitive-performance", to: "pickleball-as-competitive-psychology-lab", weight: 2}
   - {from: "strategic-layer-in-competitive-performance", to: "interest-in-thinking-toward-excellence", weight: 2}
@@ -112,7 +191,7 @@ edges:
   - {from: "interest-in-thinking-toward-excellence", to: "w-timothy-gallwey", weight: 1}
   - {from: "interest-in-thinking-toward-excellence", to: "brad-gilbert", weight: 1}
 
-  # Ezra Klein — new edges; shared nodes with Stevie get weight 2 below
+  # Ezra Klein cluster
   - {from: "dialogue-and-thought-through-disagreement", to: "attraction-to-dialogic-thinking", weight: 1}
   - {from: "dialogue-and-thought-through-disagreement", to: "analytical-audio-as-primary-information-diet", weight: 1}
   - {from: "dialogue-and-thought-through-disagreement", to: "ezra-klein", weight: 1}
@@ -120,7 +199,7 @@ edges:
   - {from: "attraction-to-dialogic-thinking", to: "ezra-klein", weight: 1}
   - {from: "analytical-audio-as-primary-information-diet", to: "ezra-klein", weight: 1}
 
-  # Cross-cluster edges with weight > 1 (reinforced by multiple titles)
+  # Cross-cluster: Stevie Wonder + podcast/media reinforcement
   - {from: "complexity-without-alienation", to: "clarity-within-complexity", weight: 2}
   - {from: "complexity-without-alienation", to: "accessible-without-condescension", weight: 2}
   - {from: "complexity-without-alienation", to: "appreciation-for-non-alienating-models", weight: 2}
@@ -151,9 +230,156 @@ edges:
   - {from: "appreciation-for-non-alienating-models", to: "deconstruction-of-received-wisdom", weight: 1}
   - {from: "appreciation-for-non-alienating-models", to: "adam-conover", weight: 1}
 
-  # Deconstruction cluster (Heather + Adam)
+  # Deconstruction cluster
   - {from: "deconstruction-of-received-wisdom", to: "analytical-audio-as-primary-information-diet", weight: 2}
   - {from: "deconstruction-of-received-wisdom", to: "heather-cox-richardson", weight: 1}
   - {from: "deconstruction-of-received-wisdom", to: "adam-conover", weight: 1}
   - {from: "analytical-audio-as-primary-information-diet", to: "heather-cox-richardson", weight: 1}
   - {from: "analytical-audio-as-primary-information-diet", to: "adam-conover", weight: 1}
+
+  # Games: hidden information / strategy / social deduction
+  # weights > 1 reflect co-occurrence across multiple titles
+  - {from: "hidden-information-incomplete-knowledge", to: "strategy-under-uncertainty", weight: 2}
+  - {from: "hidden-information-incomplete-knowledge", to: "intellectual-engagement-brain-activation", weight: 1}
+  - {from: "hidden-information-incomplete-knowledge", to: "drawn-to-games-for-skill-development-and-human-pattern-reading", weight: 2}
+  - {from: "hidden-information-incomplete-knowledge", to: "people-reading-social-deduction", weight: 1}
+  - {from: "hidden-information-incomplete-knowledge", to: "desire-for-mastery-depth-not-yet-unlocked", weight: 1}
+  - {from: "hidden-information-incomplete-knowledge", to: "aspirational-relationship-to-certain-games", weight: 1}
+  - {from: "hidden-information-incomplete-knowledge", to: "steven-medway", weight: 1}
+  - {from: "strategy-under-uncertainty", to: "intellectual-engagement-brain-activation", weight: 2}
+  - {from: "strategy-under-uncertainty", to: "drawn-to-games-for-skill-development-and-human-pattern-reading", weight: 4}
+  - {from: "strategy-under-uncertainty", to: "desire-for-mastery-depth-not-yet-unlocked", weight: 2}
+  - {from: "strategy-under-uncertainty", to: "aspirational-relationship-to-certain-games", weight: 2}
+  - {from: "strategy-under-uncertainty", to: "people-reading-social-deduction", weight: 1}
+  - {from: "strategy-under-uncertainty", to: "steven-medway", weight: 1}
+  - {from: "intellectual-engagement-brain-activation", to: "drawn-to-games-for-skill-development-and-human-pattern-reading", weight: 2}
+  - {from: "people-reading-social-deduction", to: "desire-for-mastery-depth-not-yet-unlocked", weight: 1}
+  - {from: "people-reading-social-deduction", to: "aspirational-relationship-to-certain-games", weight: 1}
+  - {from: "people-reading-social-deduction", to: "drawn-to-games-for-skill-development-and-human-pattern-reading", weight: 3}
+  - {from: "people-reading-social-deduction", to: "steven-medway", weight: 1}
+  - {from: "desire-for-mastery-depth-not-yet-unlocked", to: "aspirational-relationship-to-certain-games", weight: 2}
+  - {from: "desire-for-mastery-depth-not-yet-unlocked", to: "drawn-to-games-for-skill-development-and-human-pattern-reading", weight: 2}
+  - {from: "desire-for-mastery-depth-not-yet-unlocked", to: "steven-medway", weight: 1}
+  - {from: "aspirational-relationship-to-certain-games", to: "drawn-to-games-for-skill-development-and-human-pattern-reading", weight: 2}
+  - {from: "aspirational-relationship-to-certain-games", to: "steven-medway", weight: 1}
+  - {from: "drawn-to-games-for-skill-development-and-human-pattern-reading", to: "steven-medway", weight: 1}
+
+  # Wingspan cluster
+  - {from: "engine-building-systems-thinking", to: "ecosystem-construction", weight: 1}
+  - {from: "engine-building-systems-thinking", to: "desire-for-mastery-depth-not-yet-unlocked", weight: 1}
+  - {from: "engine-building-systems-thinking", to: "elizabeth-hargrave", weight: 1}
+  - {from: "ecosystem-construction", to: "desire-for-mastery-depth-not-yet-unlocked", weight: 1}
+  - {from: "ecosystem-construction", to: "elizabeth-hargrave", weight: 1}
+  - {from: "desire-for-mastery-depth-not-yet-unlocked", to: "elizabeth-hargrave", weight: 1}
+
+  # Parable of the Sower cluster
+  # weights of 2 reflect reinforcement from Parable of the Talents or Kindred
+  - {from: "community-formation-under-collapse", to: "societal-failure-failed-governance", weight: 2}
+  - {from: "community-formation-under-collapse", to: "resilience-and-survival", weight: 1}
+  - {from: "community-formation-under-collapse", to: "discernment-who-belongs-in-healing-community", weight: 2}
+  - {from: "community-formation-under-collapse", to: "grounded-speculation-near-future-realism", weight: 1}
+  - {from: "community-formation-under-collapse", to: "life-changing-clarity-floor-under-the-feet", weight: 1}
+  - {from: "community-formation-under-collapse", to: "political-fear-channeled-into-practical-thinking", weight: 1}
+  - {from: "community-formation-under-collapse", to: "political-survival-reading-first-trump-term", weight: 1}
+  - {from: "community-formation-under-collapse", to: "strong-student-of-history", weight: 1}
+  - {from: "community-formation-under-collapse", to: "political-orientation-inclusion-community-building", weight: 2}
+  - {from: "community-formation-under-collapse", to: "octavia-e-butler", weight: 2}
+  - {from: "societal-failure-failed-governance", to: "resilience-and-survival", weight: 1}
+  - {from: "societal-failure-failed-governance", to: "discernment-who-belongs-in-healing-community", weight: 2}
+  - {from: "societal-failure-failed-governance", to: "grounded-speculation-near-future-realism", weight: 1}
+  - {from: "societal-failure-failed-governance", to: "life-changing-clarity-floor-under-the-feet", weight: 1}
+  - {from: "societal-failure-failed-governance", to: "political-fear-channeled-into-practical-thinking", weight: 1}
+  - {from: "societal-failure-failed-governance", to: "political-survival-reading-first-trump-term", weight: 1}
+  - {from: "societal-failure-failed-governance", to: "strong-student-of-history", weight: 1}
+  - {from: "societal-failure-failed-governance", to: "political-orientation-inclusion-community-building", weight: 2}
+  - {from: "societal-failure-failed-governance", to: "octavia-e-butler", weight: 2}
+  - {from: "resilience-and-survival", to: "discernment-who-belongs-in-healing-community", weight: 1}
+  - {from: "resilience-and-survival", to: "grounded-speculation-near-future-realism", weight: 1}
+  - {from: "resilience-and-survival", to: "life-changing-clarity-floor-under-the-feet", weight: 1}
+  - {from: "resilience-and-survival", to: "political-fear-channeled-into-practical-thinking", weight: 1}
+  - {from: "resilience-and-survival", to: "political-survival-reading-first-trump-term", weight: 1}
+  - {from: "resilience-and-survival", to: "strong-student-of-history", weight: 1}
+  - {from: "resilience-and-survival", to: "political-orientation-inclusion-community-building", weight: 1}
+  - {from: "resilience-and-survival", to: "octavia-e-butler", weight: 1}
+  - {from: "discernment-who-belongs-in-healing-community", to: "grounded-speculation-near-future-realism", weight: 1}
+  - {from: "discernment-who-belongs-in-healing-community", to: "life-changing-clarity-floor-under-the-feet", weight: 1}
+  - {from: "discernment-who-belongs-in-healing-community", to: "political-fear-channeled-into-practical-thinking", weight: 1}
+  - {from: "discernment-who-belongs-in-healing-community", to: "political-survival-reading-first-trump-term", weight: 1}
+  - {from: "discernment-who-belongs-in-healing-community", to: "strong-student-of-history", weight: 1}
+  - {from: "discernment-who-belongs-in-healing-community", to: "political-orientation-inclusion-community-building", weight: 2}
+  - {from: "discernment-who-belongs-in-healing-community", to: "octavia-e-butler", weight: 2}
+  - {from: "grounded-speculation-near-future-realism", to: "life-changing-clarity-floor-under-the-feet", weight: 1}
+  - {from: "grounded-speculation-near-future-realism", to: "political-fear-channeled-into-practical-thinking", weight: 1}
+  - {from: "grounded-speculation-near-future-realism", to: "political-survival-reading-first-trump-term", weight: 1}
+  - {from: "grounded-speculation-near-future-realism", to: "strong-student-of-history", weight: 2}
+  - {from: "grounded-speculation-near-future-realism", to: "political-orientation-inclusion-community-building", weight: 1}
+  - {from: "grounded-speculation-near-future-realism", to: "octavia-e-butler", weight: 2}
+  - {from: "life-changing-clarity-floor-under-the-feet", to: "political-fear-channeled-into-practical-thinking", weight: 1}
+  - {from: "life-changing-clarity-floor-under-the-feet", to: "political-survival-reading-first-trump-term", weight: 1}
+  - {from: "life-changing-clarity-floor-under-the-feet", to: "strong-student-of-history", weight: 1}
+  - {from: "life-changing-clarity-floor-under-the-feet", to: "political-orientation-inclusion-community-building", weight: 1}
+  - {from: "life-changing-clarity-floor-under-the-feet", to: "octavia-e-butler", weight: 1}
+  - {from: "political-fear-channeled-into-practical-thinking", to: "political-survival-reading-first-trump-term", weight: 1}
+  - {from: "political-fear-channeled-into-practical-thinking", to: "strong-student-of-history", weight: 1}
+  - {from: "political-fear-channeled-into-practical-thinking", to: "political-orientation-inclusion-community-building", weight: 1}
+  - {from: "political-fear-channeled-into-practical-thinking", to: "octavia-e-butler", weight: 1}
+  - {from: "political-survival-reading-first-trump-term", to: "strong-student-of-history", weight: 1}
+  - {from: "political-survival-reading-first-trump-term", to: "political-orientation-inclusion-community-building", weight: 1}
+  - {from: "political-survival-reading-first-trump-term", to: "octavia-e-butler", weight: 1}
+  - {from: "strong-student-of-history", to: "political-orientation-inclusion-community-building", weight: 1}
+  - {from: "strong-student-of-history", to: "octavia-e-butler", weight: 2}
+  - {from: "political-orientation-inclusion-community-building", to: "octavia-e-butler", weight: 2}
+
+  # Parable of the Talents: complicity edges (new node, connects to shared Butler nodes)
+  - {from: "complicity-without-malice", to: "community-formation-under-collapse", weight: 1}
+  - {from: "complicity-without-malice", to: "societal-failure-failed-governance", weight: 1}
+  - {from: "complicity-without-malice", to: "discernment-who-belongs-in-healing-community", weight: 1}
+  - {from: "complicity-without-malice", to: "political-orientation-inclusion-community-building", weight: 1}
+  - {from: "complicity-without-malice", to: "octavia-e-butler", weight: 1}
+
+  # Kindred cluster (new pairs only; GS-SH, GS-OB, SH-OB already weighted above)
+  - {from: "experiential-knowledge-vs-abstract-knowledge", to: "grounded-speculation-near-future-realism", weight: 1}
+  - {from: "experiential-knowledge-vs-abstract-knowledge", to: "strong-student-of-history", weight: 1}
+  - {from: "experiential-knowledge-vs-abstract-knowledge", to: "octavia-e-butler", weight: 1}
+  - {from: "experiential-knowledge-vs-abstract-knowledge", to: "values-experiential-knowledge-as-gold-standard", weight: 1}
+  - {from: "grounded-speculation-near-future-realism", to: "values-experiential-knowledge-as-gold-standard", weight: 1}
+  - {from: "strong-student-of-history", to: "values-experiential-knowledge-as-gold-standard", weight: 1}
+  - {from: "octavia-e-butler", to: "values-experiential-knowledge-as-gold-standard", weight: 1}
+
+  # The Dispossessed cluster
+  - {from: "anarchism-alternative-social-organization", to: "inequality-and-material-conditions", weight: 1}
+  - {from: "anarchism-alternative-social-organization", to: "tension-between-abundance-and-sustainability", weight: 1}
+  - {from: "anarchism-alternative-social-organization", to: "open-ended-wonder-productive-irresolution", weight: 1}
+  - {from: "anarchism-alternative-social-organization", to: "grounded-speculation-near-future-realism", weight: 1}
+  - {from: "anarchism-alternative-social-organization", to: "ursula-k-le-guin", weight: 1}
+  - {from: "inequality-and-material-conditions", to: "tension-between-abundance-and-sustainability", weight: 1}
+  - {from: "inequality-and-material-conditions", to: "open-ended-wonder-productive-irresolution", weight: 1}
+  - {from: "inequality-and-material-conditions", to: "grounded-speculation-near-future-realism", weight: 1}
+  - {from: "inequality-and-material-conditions", to: "ursula-k-le-guin", weight: 1}
+  - {from: "tension-between-abundance-and-sustainability", to: "open-ended-wonder-productive-irresolution", weight: 1}
+  - {from: "tension-between-abundance-and-sustainability", to: "grounded-speculation-near-future-realism", weight: 1}
+  - {from: "tension-between-abundance-and-sustainability", to: "ursula-k-le-guin", weight: 1}
+  - {from: "open-ended-wonder-productive-irresolution", to: "grounded-speculation-near-future-realism", weight: 1}
+  - {from: "open-ended-wonder-productive-irresolution", to: "ursula-k-le-guin", weight: 1}
+  - {from: "grounded-speculation-near-future-realism", to: "ursula-k-le-guin", weight: 1}
+
+  # Sphere
+  - {from: "grounded-speculation-near-future-realism", to: "michael-crichton", weight: 1}
+
+  # Roald Dahl cluster
+  - {from: "warmth-toward-absurdist-but-consistent-childhood-fiction", to: "internal-logical-consistency", weight: 1}
+  - {from: "warmth-toward-absurdist-but-consistent-childhood-fiction", to: "active-imagination-doesnt-need-elaborate-worldbuilding", weight: 1}
+  - {from: "warmth-toward-absurdist-but-consistent-childhood-fiction", to: "roald-dahl", weight: 1}
+  - {from: "internal-logical-consistency", to: "active-imagination-doesnt-need-elaborate-worldbuilding", weight: 1}
+  - {from: "internal-logical-consistency", to: "roald-dahl", weight: 1}
+  - {from: "active-imagination-doesnt-need-elaborate-worldbuilding", to: "roald-dahl", weight: 1}
+
+  # I Am Legend cluster (negative entry — francis-lawrence edges limited to theme nodes only)
+  - {from: "internal-logical-consistency", to: "covert-commercialism-manipulation-in-media", weight: 1}
+  - {from: "internal-logical-consistency", to: "immediate-ejection-when-internal-logic-breaks", weight: 1}
+  - {from: "internal-logical-consistency", to: "trust-calibrated-to-rigor-of-work", weight: 1}
+  - {from: "covert-commercialism-manipulation-in-media", to: "immediate-ejection-when-internal-logic-breaks", weight: 1}
+  - {from: "covert-commercialism-manipulation-in-media", to: "trust-calibrated-to-rigor-of-work", weight: 1}
+  - {from: "immediate-ejection-when-internal-logic-breaks", to: "trust-calibrated-to-rigor-of-work", weight: 1}
+  - {from: "francis-lawrence", to: "internal-logical-consistency", weight: 1}
+  - {from: "francis-lawrence", to: "covert-commercialism-manipulation-in-media", weight: 1}

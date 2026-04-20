@@ -70,7 +70,7 @@
       "path": "memory/taste/manifest.yaml",
       "description": "Taste Vault — relational graph of nodes and edges",
       "project": "TasteVault",
-      "last_modified": "2026-04-13T00:00:00Z"
+      "last_modified": "2026-04-20T00:00:00Z"
     },
     {
       "path": "memory/taste/session_log.md",
