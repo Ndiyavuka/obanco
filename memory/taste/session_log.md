@@ -63,3 +63,86 @@ edges_incremented:
   - accessible-without-condescension — analytical-audio-as-primary-information-diet: weight 2 (ezra + adam)
   - appreciation-for-non-alienating-models — analytical-audio-as-primary-information-diet: weight 2 (ezra + adam)
 ---
+
+---
+date: 2026-04-19
+titles_added:
+  - shab-e-sepid-2008
+  - leila-farshid-amin-2000
+  - nastaran-farshid-amin-2000
+  - strunz-and-farah-1980s-onward
+  - alabina-the-album-1996
+  - gipsy-kings-catalog
+  - elissa-catalog
+  - nina-simone-catalog
+  - dave-brubeck-catalog
+  - john-coltrane-catalog
+  - glenn-miller-catalog
+  - stratego
+  - chess
+  - go
+  - blood-on-the-clocktower-2022
+  - mafia
+  - the-resistance-avalon
+  - wingspan-2019
+  - parable-of-the-sower-1993
+  - parable-of-the-talents-1998
+  - kindred-1979
+  - the-dispossessed-1974
+  - sphere-1987
+  - roald-dahl-collected
+  - i-am-legend-film-2007
+nodes_added:
+  themes:
+    - hidden-information-incomplete-knowledge
+    - strategy-under-uncertainty
+    - people-reading-social-deduction
+    - engine-building-systems-thinking
+    - ecosystem-construction
+    - community-formation-under-collapse
+    - societal-failure-failed-governance
+    - resilience-and-survival
+    - discernment-who-belongs-in-healing-community
+    - complicity-without-malice
+    - anarchism-alternative-social-organization
+    - inequality-and-material-conditions
+    - experiential-knowledge-vs-abstract-knowledge
+    - grounded-speculation-near-future-realism
+    - internal-logical-consistency
+    - covert-commercialism-manipulation-in-media
+    - tension-between-abundance-and-sustainability
+  affects:
+    - intellectual-engagement-brain-activation
+    - desire-for-mastery-depth-not-yet-unlocked
+    - political-fear-channeled-into-practical-thinking
+    - life-changing-clarity-floor-under-the-feet
+    - open-ended-wonder-productive-irresolution
+    - immediate-ejection-when-internal-logic-breaks
+    - warmth-toward-absurdist-but-consistent-fiction
+    - trust-calibrated-to-rigor-of-work
+  personal:
+    - parable-of-sower-as-political-survival-framework
+    - strong-student-of-history
+    - political-orientation-inclusion-community-building
+    - active-imagination-no-scaffolding-needed
+    - experiential-knowledge-as-gold-standard
+    - drawn-to-games-for-skill-development
+    - aspirational-relationship-to-certain-games
+  creators:
+    - octavia-e-butler
+    - ursula-k-le-guin
+    - michael-crichton
+    - roald-dahl
+    - elizabeth-hargrave
+    - steven-medway
+    - francis-lawrence
+nodes_merged: []
+flags:
+  - grounded-speculation-near-future-realism may collapse into one node — flag for deduplication
+  - experiential-knowledge-vs-abstract-knowledge overlaps with documentary-as-grounded-truth from prior session — flag for merge
+  - internal-logical-consistency may partially overlap with rigor-restraint from butler discussion — review for consolidation
+  - roald-dahl-collected is a general entry — may need split into title-level entries if specific books named
+  - i-am-legend-film-2007 functions as anti-preference / negative data point — consider flagging entries of this type distinctly in the schema
+edges_created: pending
+edges_incremented: pending
+---
